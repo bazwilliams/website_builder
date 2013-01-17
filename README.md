@@ -11,3 +11,6 @@ Once you are happy you can generate an individual file using the `./process_page
 You can use `./update_site.sh` to convert all XML to HTML files. 
 
 You can use `./update_videos.sh` to create ogg theora video files from mp4 (h264) videos in `./videos` this requires ffmpeg installed.
+
+A template version of a generated website can be viewed on github:
+http://bazwilliams.github.com/website_builder/
