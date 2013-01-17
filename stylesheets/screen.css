@@ -1,0 +1,128 @@
+@import url("lightbox.css");
+@import url("imagethumbs.css");
+@import url("videos.css");
+@import url("maps.css");
+@import url("imagefeature.css");
+@import url("custom.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-size:100%;
+  background-attachment:fixed;
+  background-position: top;
+  padding: 0px;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  background-size:75px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0px;
+  padding-left: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px;
+}
+
+div.subheader > p {
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  padding: 10px;
+  width: 98%;
+  text-align: left;
+}
+nav {
+  background: inherit;
+  float: none;
+  position: fixed;
+  left: 0;
+  top: 100px;
+  width: 140px;
+  padding: 10px;
+  text-align: left;
+}
+nav > p {
+  color: rgba(0,0,0,1);
+  font-weight: bold;
+  padding-top: 8px;
+  padding-left: 8px;
+  border-bottom: solid #DDD 2px;
+}
+nav > p > a {
+  margin-top: 20px;
+  color: rgba(0,0,0,1);
+}
+nav > p > a:link {
+  color: rgba(0,0,0,1);
+}
+nav > p > a:visited {
+  color: rgba(0,0,0,1);
+}
+nav > p > a:hover {
+  color: rgba(0,0,0,1);
+}
+nav > p > a:active {
+  color: rgba(0,0,0,1);
+}
+
+section {
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 150px;
+  clear: both;
+  overflow: auto;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 98%;
+}
+
+article > p {
+  float: left;
+  clear: both;
+  padding: 10px;
+  background: rgba(255,255,255,0.5);
+}
+div.urls {
+  padding: 10px;
+}
+div.media {
+  text-align: center;
+  vertical-align:middle;
+  font-size: 0px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  width: 98%;
+  clear: both;
+  overflow: auto;
+}
+
+#base_advert {
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+div.featuredimages {
+  width: 1000px;
+}
+div.imagefeature {
+  margin: 0px;
+  padding: 0px;
+  height: 220px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgba(50,50,50,1);
+  text-align: center;
+  vertical-align:middle;
+  display: inline-block;
+  background: rgba(255,255,255,1);
+  overflow: hidden;
+}
+img.feature {
+  margin: 0px 0px 0px 0px;
+  height: 220px;
+  width: auto;
+}
