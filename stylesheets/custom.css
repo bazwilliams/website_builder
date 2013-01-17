@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic|Syncopate);
+
+* {
+  font-family: 'Metrophobic', Verdana, sans-serif;
+}
+
+header footer {
+  font-family: 'Syncopate', Verdana, sans-serif;
+}
+
+div.urls > p >  a {
+  font-family: 'Metrophobic', Verdana, sans-serif;
+}
+
+a {
+  font-family: 'Syncopate', Verdana, sans-serif;
+}
+
+body {
+  background-image: url('../images/background.jpg');
+}
+
+h1 {
+  background-image: url('../images/website-icon.png');
+}
+

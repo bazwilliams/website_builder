@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE page SYSTEM "./page.dtd">
+
+<page>
+
+&header;
+
+<section name="Flickr Gallery" id="flickr">
+<flickrfeature photoid="7008243429" group="showcase"/>
+<flickrfeature photoid="4740895323" group="showcase"/>
+<flickrfeature photoid="5054538960" group="showcase"/>
+<flickrfeature photoid="4452388182" group="showcase"/>
+<flickrfeature photoid="290381602" group="showcase"/>
+<flickrfeature photoid="362040156" group="showcase"/>
+</section>
+
+&footer;
+
+</page>

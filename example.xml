@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE page SYSTEM "./page.dtd">
+
+<page>
+
+&header;
+
+<section name="Section Header" id="example">
+<text>
+<header>Text Header</header>
+<subheader>Text Subheader</subheader>
+<value>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in sapien neque, ac mollis dui. Aenean id facilisis metus. Quisque quis mauris sit amet ligula lobortis tempus. Ut rutrum bibendum arcu, ac laoreet lorem aliquam eget. Sed gravida ullamcorper urna id rhoncus. Etiam iaculis pulvinar elit commodo aliquam. Vivamus dictum, ante ac sodales porta, sapien nibh tincidunt mauris, eget laoreet neque dolor id sapien. Maecenas vel sem lectus. Integer semper lacus at velit faucibus eu egestas orci rhoncus. Vivamus venenatis volutpat pellentesque. Proin enim enim, vulputate eget tempor eget, blandit eget erat. Curabitur eget lacinia arcu. Proin luctus, velit quis ultricies gravida, nulla ipsum congue nunc, in commodo dui orci vitae eros.
+</value>
+
+<flickr photoid="7008243429" group="slide1"/>
+<flickr photoid="4740895323" group="slide1"/>
+
+<video width="320" height="240" name="filename" description="2 videos should reside in /videos formatted h264 (filename.mp4) and ogg theora (filename.ogv)"/>
+
+</text>
+
+<text>
+<value>
+Sed hendrerit, nisi in rhoncus consectetur, lectus tellus egestas ante, quis vestibulum ipsum mi in ligula. Donec in odio ipsum, a porta elit. Vestibulum leo nunc, pellentesque a ultricies eget, vulputate eget nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut sagittis diam non magna pharetra sagittis. Mauris iaculis luctus ligula, et vestibulum mi rutrum et. Mauris lobortis ultricies nulla vitae dictum. Etiam lorem augue, lobortis eu faucibus scelerisque, porttitor nec nunc. In pharetra bibendum nisl, quis sollicitudin eros viverra non. Donec laoreet pretium tristique. Nunc mauris est, euismod sed consectetur et, convallis quis elit.
+</value>
+<flickr photoid="5054538960" group="slide2"/>
+<flickr photoid="4452388182" group="slide2"/>
+<flickr photoid="290381602" group="slide2"/>
+<flickr photoid="362040156" group="slide2"/>
+</text>
+<text>
+<value>
+Nam sodales velit a arcu auctor facilisis. Vivamus sapien orci, consectetur sit amet luctus vitae, consequat non nunc. Morbi lobortis dictum dictum. Praesent convallis, velit tincidunt consequat ultricies, dui massa sollicitudin lacus, a lobortis turpis nunc et nisi. Sed ac vehicula nisi. In ut dolor enim, sit amet suscipit quam. Donec nec auctor est.
+</value>
+<url title="My Blog" description="A link to my blog">http://blog.bjw.me.uk</url>
+</text>
+
+</section>
+
+<section name="Google Map Section" id="map">
+<text>
+<value>
+Manbear Pig Sightings?!?
+</value>
+</text>
+<map width="600" height="400" src="https://maps.google.com/maps/ms?ie=UTF8&amp;t=h&amp;oe=UTF8&amp;msa=0&amp;msid=217721926957602704507.0004384072cf0c2cf90ed&amp;ll=-4.708115,140.660716&amp;spn=131.372438,300.098741&amp;output=embed"/>
+</section>
+
+&footer;
+
+</page>

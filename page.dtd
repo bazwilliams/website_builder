@@ -1,0 +1,47 @@
+<!ELEMENT page (title,nav,section+,footer?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT nav (url*)>
+<!ELEMENT text (header?,subheader?,value*,image*,flickr*,video*,url?)>
+<!ELEMENT subheader (#PCDATA)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT section ((text+|flickrfeature*),map?)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT map (#PCDATA)>
+<!ELEMENT flickr (image?)>
+<!ELEMENT flickrfeature (image?)>
+<!ELEMENT param (#PCDATA)>
+<!ELEMENT embed (#PCDATA)>
+<!ATTLIST url title CDATA #REQUIRED>
+<!ATTLIST url description CDATA #REQUIRED>
+<!ATTLIST section id CDATA #REQUIRED>
+<!ATTLIST section name CDATA #REQUIRED>
+<!ATTLIST map src CDATA #REQUIRED>
+<!ATTLIST map width CDATA #REQUIRED>
+<!ATTLIST map height CDATA #REQUIRED>
+<!ATTLIST video name CDATA #REQUIRED>
+<!ATTLIST video width CDATA #REQUIRED>
+<!ATTLIST video height CDATA #REQUIRED>
+<!ATTLIST video description CDATA #REQUIRED>
+<!ATTLIST image description CDATA #REQUIRED>
+<!ATTLIST image title CDATA #REQUIRED>
+<!ATTLIST image thumburl CDATA #REQUIRED>
+<!ATTLIST image url CDATA #REQUIRED>
+<!ATTLIST flickrfeature photoid CDATA #REQUIRED>
+<!ATTLIST flickrfeature group CDATA #REQUIRED>
+<!ATTLIST flickr photoid CDATA #REQUIRED>
+<!ATTLIST flickr group CDATA #REQUIRED>
+<!ATTLIST param name CDATA #REQUIRED>
+<!ATTLIST param value CDATA #REQUIRED>
+<!ATTLIST embed type CDATA #REQUIRED>
+<!ATTLIST embed src CDATA #REQUIRED>
+<!ATTLIST embed bgcolor CDATA #REQUIRED>
+<!ATTLIST embed allowfullscreen CDATA #REQUIRED>
+<!ATTLIST embed flashvars CDATA #REQUIRED>
+<!ATTLIST embed width CDATA #REQUIRED>
+<!ATTLIST embed height CDATA #REQUIRED>
+<!ENTITY header SYSTEM "./ents/header.xml">
+<!ENTITY navigation SYSTEM "./ents/navigation.xml">
+<!ENTITY footer SYSTEM "./ents/footer.xml">
