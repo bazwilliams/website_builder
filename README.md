@@ -1,4 +1,4 @@
-HTML5 Static Website Builder
+# HTML5 Static Website Builder
 
 An example HTML file has been generated so you can see results. 
 
